@@ -1,8 +1,8 @@
 E:\vsprojects\MyCustomControl\MyCustomControl\bin\Debug\MyCustomControl.exe
 E:\vsprojects\MyCustomControl\MyCustomControl\bin\Debug\MyCustomControl.pdb
+E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.Form1.resources
 E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.Properties.Resources.resources
 E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.csproj.GenerateResource.Cache
 E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.exe
 E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.pdb
-E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.Form1.resources
 E:\vsprojects\MyCustomControl\MyCustomControl\obj\x86\Debug\MyCustomControl.csprojResolveAssemblyReference.cache

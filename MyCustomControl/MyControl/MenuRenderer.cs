@@ -34,7 +34,7 @@ namespace MyCustomControl.MyControl
         protected override void OnRenderItemText(ToolStripItemTextRenderEventArgs e)
         {
             base.OnRenderItemText(e);
-            e.Item.ForeColor = e.Item.Selected ? Color.White : textColor;
+            e.Item.ForeColor = e.Item.Selected ? Color.AliceBlue : textColor;
         }
         protected override void OnRenderArrow(ToolStripArrowRenderEventArgs e)
         {

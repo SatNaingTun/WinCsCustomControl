@@ -30,7 +30,8 @@ namespace MyCustomControl.MyControl
         }
         private Color menuItemTextColor = Color.DimGray;
 
-        [Browsable(false)]
+        //[Browsable(false)]
+           [Category("Appearance")]
         public Color MenuItemTextColor
         {
             get { return menuItemTextColor; }
@@ -38,7 +39,8 @@ namespace MyCustomControl.MyControl
         }
         private Color primaryColor = Color.MediumSlateBlue;
 
-        [Browsable(false)]
+       // [Browsable(false)]
+        [Category("Appearance")]
         public Color PrimaryColor
         {
             get { return primaryColor; }
@@ -57,7 +59,7 @@ namespace MyCustomControl.MyControl
             if (isMainMenu)
             {
                 menuItemHeaderSize = new Bitmap(25, 45);
-                MenuItemTextColor = Color.Gainsboro;
+               // MenuItemTextColor = Color.Gainsboro;
 
             }
             else
@@ -90,7 +92,9 @@ namespace MyCustomControl.MyControl
             {
                 foreach (ToolStripMenuItem item in Items)
                 {
+                    item.BackColor = primaryColor;
                     item.ForeColor = menuItemTextColor;
+                  
                     item.ImageScaling = ToolStripItemImageScaling.None;
                     if (item.Image == null) item.Image = menuItemHeaderSize;
 

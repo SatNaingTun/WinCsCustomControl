@@ -32,6 +32,8 @@
             this.customButton1 = new MyCustomControl.MyControl.CustomButton();
             this.customDropDownMenu1 = new MyCustomControl.MyControl.CustomDropDownMenu(this.components);
             this.a1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.a2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.a3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customDropDownMenu1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,18 +58,35 @@
             // 
             this.customDropDownMenu1.IsMainMenu = false;
             this.customDropDownMenu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.a1ToolStripMenuItem});
+            this.a1ToolStripMenuItem,
+            this.a2ToolStripMenuItem,
+            this.a3ToolStripMenuItem});
             this.customDropDownMenu1.MenuItemHeight = 25;
-            this.customDropDownMenu1.MenuItemTextColor = System.Drawing.Color.DimGray;
+            this.customDropDownMenu1.MenuItemTextColor = System.Drawing.Color.WhiteSmoke;
             this.customDropDownMenu1.Name = "customDropDownMenu1";
             this.customDropDownMenu1.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
-            this.customDropDownMenu1.Size = new System.Drawing.Size(153, 48);
+            this.customDropDownMenu1.Size = new System.Drawing.Size(153, 92);
             // 
             // a1ToolStripMenuItem
             // 
+            this.a1ToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.a1ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.a1ToolStripMenuItem.Name = "a1ToolStripMenuItem";
             this.a1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.a1ToolStripMenuItem.Text = "A1";
+            this.a1ToolStripMenuItem.Click += new System.EventHandler(this.a1ToolStripMenuItem_Click);
+            // 
+            // a2ToolStripMenuItem
+            // 
+            this.a2ToolStripMenuItem.Name = "a2ToolStripMenuItem";
+            this.a2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.a2ToolStripMenuItem.Text = "A2";
+            // 
+            // a3ToolStripMenuItem
+            // 
+            this.a3ToolStripMenuItem.Name = "a3ToolStripMenuItem";
+            this.a3ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.a3ToolStripMenuItem.Text = "A3";
             // 
             // Form1
             // 
@@ -87,6 +106,8 @@
         private MyControl.CustomDropDownMenu customDropDownMenu1;
         private MyControl.CustomButton customButton1;
         private System.Windows.Forms.ToolStripMenuItem a1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem a2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem a3ToolStripMenuItem;
 
 
 

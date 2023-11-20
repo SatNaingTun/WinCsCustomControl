@@ -22,6 +22,11 @@ namespace MyCustomControl
             
         }
 
+        private void a1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Item clicked");
+        }
+
        
     }
 }
